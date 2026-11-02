@@ -5,3 +5,4 @@ mongodb_host: 172.31.5.124
 redis_host: 172.31.14.153
 user_host: 172.31.12.241
 cart_host: 172.31.12.13
+catalogue_host: 172.31.12.158
