@@ -42,12 +42,4 @@
   template:
     src: roboshop.conf.j2
     dest: /etc/nginx/default.d/roboshop.conf
-  register: nginx_config
   notify: restart nginx
-
-- name: Check if template changed
-  debug:
-    var: nginx_config.changed
-# - name: Validate nginx config
-#   command: nginx -t
-#   changed_when: false
