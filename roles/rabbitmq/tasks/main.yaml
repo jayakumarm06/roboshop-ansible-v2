@@ -18,8 +18,8 @@
 
 - name: Create RabbitMQ user
   community.rabbitmq.rabbitmq_user:
-    user: roboshop
-    password: roboshop123
+    user: "{{ rabbitmq_user }}"
+    password: "{{ rabbitmq_password }}"
     permissions:
       - vhost: /
         configure_priv: .*

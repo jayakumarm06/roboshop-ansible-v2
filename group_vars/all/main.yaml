@@ -16,5 +16,7 @@ payment_host: 172.31.0.100
 catalogue_host: 172.31.8.57
 shipping_db_user: shipping
 shipping_db_password: RoboShop@1
-rabbitmq_user: roboshop
-rabbitmq_password: roboshop123
+# rabbitmq_user: roboshop
+# rabbitmq_password: roboshop123
+rabbitmq_user: "{{ vault_rabbitmq_user }}"
+rabbitmq_password: "{{ vault_rabbitmq_password }}"
