@@ -1,6 +1,6 @@
 - name: print variables
   debug:
-    msg: "Course: {{ course }}, Duration: {{ duration }}"
+    msg: "Course: {{ course }}, Duration: {{ duration }}, Trainer: {{ trainer }}"
 
 - name: application setup
   include_role:
