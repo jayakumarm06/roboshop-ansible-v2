@@ -5,7 +5,7 @@ ansible_user: "{{ vault_ansible_user }}"
 ansible_password: "{{ vault_ansible_password }}"
 mysql_root_password: "{{ vault_mysql_root_password }}"
 
-mongodb_host: 172.31.2.248
+mongodb_host: 172.31.9.71
 redis_host: 172.31.6.229
 user_host: 172.31.9.50
 cart_host: 172.31.9.91
