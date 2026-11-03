@@ -8,12 +8,23 @@ shipping_db_user: "{{ vault_shipping_db_user }}"
 shipping_db_password: "{{ vault_shipping_db_password }}"
 rabbitmq_user: "{{ vault_rabbitmq_user }}"
 rabbitmq_password: "{{ vault_rabbitmq_password }}"
-mongodb_host: 172.31.9.71
-redis_host: 172.31.6.229
-user_host: 172.31.9.50
-cart_host: 172.31.9.91
-mysql_host: 172.31.12.92
-shipping_host: 172.31.15.47
-rabbitmq_host: 172.31.3.7
-payment_host: 172.31.0.100
-catalogue_host: 172.31.14.62
+# mongodb_host: 172.31.9.71
+# redis_host: 172.31.6.229
+# user_host: 172.31.9.50
+# cart_host: 172.31.9.91
+# mysql_host: 172.31.12.92
+# shipping_host: 172.31.15.47
+# rabbitmq_host: 172.31.3.7
+# payment_host: 172.31.0.100
+# catalogue_host: 172.31.14.62
+mongodb_host: mongodb.dewsecopai.online
+redis_host: redis.dewsecopai.online
+mysql_host: mysql.dewsecopai.online
+rabbitmq_host: rabbitmq.dewsecopai.online
+catalogue_host: catalogue.dewsecopai.online
+user_host: user.dewsecopai.online
+cart_host: cart.dewsecopai.online
+shipping_host: shipping.dewsecopai.online
+payment_host: payment.dewsecopai.online
+dispatch_host: dispatch.dewsecopai.online
+frontend_host: frontend.dewsecopai.online
