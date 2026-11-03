@@ -11,6 +11,8 @@ user_host: 172.31.9.50
 cart_host: 172.31.9.91
 mysql_host: 172.31.3.25
 shipping_host: 172.31.0.156
+rabbitmq_host: 172.31.4.38
+payment_host: 172.31.0.100
 catalogue_host: 172.31.8.57
 shipping_db_user: shipping
 shipping_db_password: RoboShop@1
