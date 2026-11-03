@@ -1,4 +1,3 @@
-#first check the product load or not
 - name: application setup
   include_role:
     name: common
@@ -14,6 +13,7 @@
     name: common
     tasks_from: systemd-setup
 
+#first check the product load or not
 - name: Check cities loaded data exist or not
   command: mysql -h {{ mysql_host }} -u root -p{{ mysql_root_password }} -N -B -e "SELECT COUNT(*) FROM cities.cities;"
   register: cities_output
