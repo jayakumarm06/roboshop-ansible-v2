@@ -13,7 +13,7 @@ mysql_host: 172.31.9.30
 shipping_host: 172.31.0.156
 rabbitmq_host: 172.31.3.7
 payment_host: 172.31.0.100
-catalogue_host: 172.31.8.57
+catalogue_host: 172.31.14.62
 shipping_db_user: shipping
 shipping_db_password: RoboShop@1
 # shipping_db_user: "{{ vault_shipping_db_user }}"
