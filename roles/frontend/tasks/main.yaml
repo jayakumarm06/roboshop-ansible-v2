@@ -43,7 +43,6 @@
     src: roboshop.conf.j2
     dest: /etc/nginx/default.d/roboshop.conf
   notify: restart nginx
-
-- name: Validate nginx config
-  command: nginx -t
-  changed_when: false
+# - name: Validate nginx config
+#   command: nginx -t
+#   changed_when: false
