@@ -6,7 +6,7 @@ ansible_password: DevOps321
 # mysql_root_password: "{{ vault_mysql_root_password }}"
 mysql_root_password: RoboShop@1
 mongodb_host: 172.31.2.211
-redis_host: 172.31.14.153
+redis_host: 172.31.6.229
 user_host: 172.31.9.50
-cart_host: 172.31.12.13
-catalogue_host: 172.31.1.50
+cart_host: 172.31.9.91
+catalogue_host: 172.31.8.57
