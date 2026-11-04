@@ -16,7 +16,7 @@ shipping_db_password: "{{ vault_shipping_db_password }}"
 rabbitmq_user: "{{ vault_rabbitmq_user }}"
 rabbitmq_password: "{{ vault_rabbitmq_password }}"
 
-mongodb_host: 172.31.9.71
+mongodb_host: 172.31.7.251
 # redis_host: 172.31.6.229
 # user_host: 172.31.9.50
 # cart_host: 172.31.9.91
